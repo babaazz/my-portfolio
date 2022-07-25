@@ -71,6 +71,7 @@ header {
   .me {
     width: 20rem;
     height: 26rem;
+    left: calc(50% - 10rem);
   }
 }
 
@@ -83,6 +84,7 @@ header {
   .me {
     width: 18rem;
     height: 24rem;
+    left: calc(50% - 9rem);
   }
   .header-container h2 {
     font-size: 2rem;
