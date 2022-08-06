@@ -41,3 +41,34 @@
   color: var(--color-primary);
   margin-bottom: 1.5rem;
 }
+
+/* ########### Media Queries (Medium Screen Size) */
+
+@media screen and (max-width: 1024px) {
+  .experience-container {
+    grid-template-columns: 1fr;
+  }
+  .experience-container > div {
+    width: 95%;
+    padding: 2rem;
+    margin: 0 auto;
+  }
+  .experience-content {
+    padding: 1rem;
+  }
+}
+
+/* ########### Media Queries (Small Screen Size) */
+
+@media screen and (max-width: 600px) {
+  .experience-container {
+    gap: 1rem;
+  }
+  .experience-container > div {
+    width: 100%;
+    padding: 2rem 1rem;
+  }
+  .experience-container > div h3 {
+    font-size: 1.3rem;
+  }
+}
