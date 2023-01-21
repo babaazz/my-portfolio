@@ -13,7 +13,7 @@
 
 .contact-option {
   background: var(--color-bg-variant);
-  padding: 1.2rem;
+  padding: 1.4rem;
   border-radius: 1.2rem;
   text-align: center;
   border: 1px solid transparent;
@@ -36,12 +36,20 @@
   font-size: 0.8rem;
 }
 
+.contact-option h4 {
+  font-size: 1.2rem;
+}
+
+.contact-option h5 {
+  font-size: 1rem;
+}
+
 /* ########## Form ########### */
 
 form {
   display: flex;
   flex-direction: column;
-  gap: 1.2rem;
+  gap: 2rem;
 }
 
 input,
@@ -57,10 +65,14 @@ textarea {
 
 /* ########### Media Queries (Medium Screen Size) */
 
-@media screen and (max-width: 1024px) {
-  .contact-container {
+@media screen and (max-width: 1200px) {
+  .container.contact-container {
     grid-template-columns: 1fr;
     gap: 2rem;
+  }
+
+  .contact-option h5 {
+    font: 0.9rem;
   }
 }
 

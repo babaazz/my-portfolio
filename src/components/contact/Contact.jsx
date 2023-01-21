@@ -14,7 +14,7 @@ const Contact = () => {
           <article className="contact-option">
             <MdOutlineEmail className="contact-icon" />
             <h4>Email</h4>
-            <h5>sunil12ap@nsitonline.in</h5>
+            <h5>sunil12ap@gmail.in</h5>
             <a
               href="mailto:sunil12ap@nsitonline.in"
               target="_blank"
